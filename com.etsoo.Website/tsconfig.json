@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": true,
+    "sourceMap": false,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "target": "ES6",
+    "strict": true,
+    "outDir": "wwwroot/js",
+    "typeRoots": [ "./node_modules/@etsoo/weixin/types", "./node_modules/@types" ]
+  },
+  "include": [ "Scripts" ],
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}

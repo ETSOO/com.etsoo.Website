@@ -1,0 +1,27 @@
+node_modules
+
+# Supports TypeScript
+wwwroot/js/
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Roslyn cache directories
+*.ide/
+
+# Publish Web Output
+*.[Pp]ublish.xml
+*.azurePubxml
+# TODO: Comment the next line if you want to checkin your web deploy settings 
+# but database connection strings (with potential passwords) will be unencrypted
+*.pubxml
+*.publishproj
+
+# Builds and publish
+.vs
+bin
+[Dd]ebug
+[Rr]elease
+[Pp]ublish
